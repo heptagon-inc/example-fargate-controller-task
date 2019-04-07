@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 run_task(){
 	INPUT_OVERRIDE=${1}
 	aws ecs run-task \
